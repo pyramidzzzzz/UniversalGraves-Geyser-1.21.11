@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "universalgraves-geyser",
+  "version": "${version}",
+  "name": "UniversalGraves-Geyser",
+  "description": "Bedrock/Geyser compatibility addon for Universal Graves. Adds visual overlays (skulls, text, items) and fixes GUI rendering for Bedrock Edition players.",
+  "authors": [
+    "EthanVisagie"
+  ],
+  "contact": {
+    "homepage": "https://github.com/EthanVisagie/UniversalGraves-Geyser",
+    "sources": "https://github.com/EthanVisagie/UniversalGraves-Geyser",
+    "issues": "https://github.com/EthanVisagie/UniversalGraves-Geyser/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.bedrockgraves.BedrockGravesAddon"
+    ]
+  },
+  "mixins": [
+    "universalgraves-geyser.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": ">=1.21.9 <=1.21.10",
+    "universal-graves": "*"
+  },
+  "suggests": {
+    "floodgate": "*"
+  }
+}

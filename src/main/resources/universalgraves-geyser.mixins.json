@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.bedrockgraves.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GraveBlockEntityMixin",
+    "GraveBlockEntitySafetyMixin",
+    "GraveUtilsCreateGraveMixin",
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

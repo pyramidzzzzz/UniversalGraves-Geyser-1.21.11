@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+out/
+local-maven/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fabric Loom
+run/
+*.log
+build_log.txt
+server_common.txt
+
+# Local development
+local.properties
